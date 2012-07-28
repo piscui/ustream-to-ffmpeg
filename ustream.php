@@ -65,6 +65,10 @@ if ($url) {
 		$result .= "<hr size='1'/><br/>\nRTMP URL (Serviio):<br/>\n<textarea rows=3 cols=70>$rtmp</textarea><br/><br/>\n";
 		$result .= "Title: <b>$channel_title</b><br/><br/>\n";
 		$result .= "<img src='$channel_thumb' /><br/><br/>\n";
+		
+		$result .= "<br/><br/><br/><br/>\n";
+		$result .= "<p><b>ffmpeg command:</b><br/><textarea rows=3 cols=70>$ffmpeg</textarea></p>\n";
+		$result .= "<p><b>rtmpdump command:</b><br/><textarea rows=3 cols=70>$rtmpdump</textarea></p>\n";
 	}
 }
 
